@@ -1,0 +1,38 @@
+body{
+     height: 100vh;
+    padding: 20px;
+    background:linear-gradient(45deg,red,rgb(255, 82, 82), rgb(255, 125, 147),rgb(255, 175, 188) );
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card {
+background-color: rgb(255, 222, 222);
+border-radius: 20px;
+width: 400px;
+text-align: center;
+}
+.card-header {
+background-color:rgb(255, 160, 177);
+padding: 20px;
+border-top-left-radius: 20px;
+border-top-right-radius: 20px;
+}
+.card-body {
+
+}
+.card-footer {
+    background-color: rgb(255, 160, 177);
+    padding: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+}
+.card-footer button{
+padding: 10px;
+border-radius: 10px;
+background-color: rgb(255, 222, 222);
+border: none;
+box-shadow: 5px 4px 8px rgb(153, 110, 110);
+
+}
